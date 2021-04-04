@@ -13,13 +13,11 @@
   <social-proof></social-proof>
 </section>
 
-<section class="features-part-one">
+<section class="features">
   <features-part-one></features-part-one>
-</section>
-
-<section class="features-part-two">
   <features-part-two></features-part-two>
 </section>
+
 
 <section class="cta">
   <call-to-action></call-to-action>
@@ -48,6 +46,7 @@ export default {
 
 * {
   margin: 0.5rem;
+
   font-family: Poppins;
   box-sizing: border-box
 }
@@ -68,6 +67,12 @@ background: white;
 .cta {
 background-image: url('./assets/rectangle.svg');
 height: 350px;
+}
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f2f2f2;
 }
 .footer {
   background: #52525B;

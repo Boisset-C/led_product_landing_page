@@ -12,7 +12,7 @@
   <header>
    <p>A very good description of one type of thing we do fairly well. A very good description of one type of thing we do fairly well. A very good description of one type of thing we do fairly well</p>
     <img />
-    <h2 class="user-two">User Two</h2>
+    <h2 class="user-two">UserTwo</h2>
   </header>
   </section>
 </template>

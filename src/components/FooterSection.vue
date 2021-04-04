@@ -13,6 +13,9 @@
 </template>
 
 <style scoped>
+h2 {
+  color: #FFFFFF
+}
 p {
   color: #FFFFFF;
 }

@@ -6,18 +6,21 @@
 
 <div class="container-blurb">
   <header>
+       <img :src="require(`@/assets/blurb.svg`)"/>
     <h2>Brighten your Video Calls</h2>
     <p>Use cool preset modes to enhance the mood for your next zoom meeting</p>
     <a>Learn More</a>
   </header>
 
   <header>
+    <img :src="require(`@/assets/blurb.svg`)"/>
     <h2>Stay Focused with Visual Cues</h2>
     <p>Keep track of your tasks visually. Check out the Pomodoro mode.</p>
     <a>Learn More</a>
   </header>
 
   <header>
+    <img :src="require(`@/assets/blurb.svg`)"/>
     <h2>Limitless Customization</h2>
     <p>With over 16.7 million RBG colors, you can create the ambiance that works for you.</p>
     <a>Learn More</a>
