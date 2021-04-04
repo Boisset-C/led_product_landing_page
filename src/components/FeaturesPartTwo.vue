@@ -28,7 +28,7 @@ img {
 
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   align-items: flex-end;
   width: 40vw;
 }
