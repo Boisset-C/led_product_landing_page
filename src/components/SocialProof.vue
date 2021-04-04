@@ -5,13 +5,13 @@
   
   <header>
     <p>A very good description of one type of thing we do fairly well. A very good description of one type of thing we do fairly well. A very good description of one type of thing we do fairly well</p>
-    <img />
+  <img :src="require(`@/assets/quotations.svg`)"/>
     <h2 class="user-one">UserOne </h2>
   </header>
 
   <header>
    <p>A very good description of one type of thing we do fairly well. A very good description of one type of thing we do fairly well. A very good description of one type of thing we do fairly well</p>
-    <img />
+  <img :src="require(`@/assets/quotations.svg`)"/>
     <h2 class="user-two">UserTwo</h2>
   </header>
   </section>

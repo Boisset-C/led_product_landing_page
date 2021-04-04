@@ -56,7 +56,9 @@ export default {
   width: 1440px;
   height: 100vh;
 }
-
+.social-proof {
+  background: #52525B;
+}
 .hero {
   background: #52525B;
 }

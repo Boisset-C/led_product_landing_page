@@ -18,7 +18,7 @@ h2 {
 }
 p {
   height: 5vh;
-  width: 35vw;
+  width: 25vw;
 }
 img {
   padding: 10px 10px 10px 10px;
@@ -29,7 +29,7 @@ img {
 .container {
   display: flex;
   flex-direction: row;
-  width: 40vw;
+  align-items: flex-start;
 }
 
 
