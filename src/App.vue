@@ -47,24 +47,29 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 * {
-  margin: 1rem;
+  margin: 0.5rem;
   font-family: Poppins;
   box-sizing: border-box
 }
 #app {
   display: grid;
-  width: 1040px;
+  gap: 40px;
+  width: 1440px;
   height: 100vh;
 }
 
 .hero {
-  height: 900px;
   background: #52525B;
 }
 
 .blurb {
-height: 750px;
+background: white;
 }
-
-
+.cta {
+background-image: url('./assets/rectangle.svg');
+height: 350px;
+}
+.footer {
+  background: #52525B;
+}
 </style>

@@ -6,12 +6,13 @@
   <button class="btn-styled">LEARN MORE</button>
   <button class="btn-flat">LEARN MORE</button>
 
-  <div id="circle"></div>
+
 </div>
 </template>
 
 <script>
 import TheNavBar from '../layout/TheNavBar.vue';
+
 export default {
   components: {
     TheNavBar,
@@ -25,7 +26,7 @@ export default {
   flex-wrap: wrap;
   background: #52525B;
   align-items: center;
-  
+  padding-bottom: 2rem;
 }
 button {
 padding: .5rem 2rem .5rem 2rem;
@@ -53,7 +54,7 @@ font-size: 1rem;
 }
 
 h1 {
-  margin-top: 10rem;
+  margin-top: 5rem;
   margin-left: 20%;
   width: 50vw;
   text-align: left;

@@ -4,29 +4,59 @@
   
   
   <header>
-    <p>A very good description of one type of thing we do fairly well</p>
+    <p>A very good description of one type of thing we do fairly well. A very good description of one type of thing we do fairly well. A very good description of one type of thing we do fairly well</p>
     <img />
-    <h2>Name</h2>
+    <h2 class="user-one">UserOne </h2>
   </header>
 
   <header>
-     <p>A very good description of one type of thing we do fairly well</p>
+   <p>A very good description of one type of thing we do fairly well. A very good description of one type of thing we do fairly well. A very good description of one type of thing we do fairly well</p>
     <img />
-    <h2>Name</h2>
+    <h2 class="user-two">User Two</h2>
   </header>
-
-  <header>
-     <p>A very good description of one type of thing we do fairly well</p>
-    <img />
-    <h2>Name</h2>
-  </header>
-  
   </section>
 </template>
 
 <style scoped>
 .container {
+  padding-top: 2rem;
+  margin-top: 1rem;
   background: #52525B;
-  height: 10vh;
 }
+
+h1 {
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 20px;
+
+color: #FFFFFF;
+  margin-left: 20%;
+}
+
+p {
+padding-top: 1rem;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+color: #FFFFFF;
+  margin-left: 20%;
+}
+h2 {
+margin-left: 20%;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+
+color: white;
+}
+
+.user-two {
+  padding-bottom: 2rem;
+}
+
+
 </style>
