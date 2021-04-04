@@ -1,4 +1,5 @@
 <template>
+<section class="container">
   <h1>What our customers say</h1>
   
   
@@ -20,6 +21,12 @@
     <h2>Name</h2>
   </header>
   
-
-
+  </section>
 </template>
+
+<style scoped>
+.container {
+  background: #52525B;
+  height: 10vh;
+}
+</style>

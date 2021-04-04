@@ -1,6 +1,7 @@
 import { createApp } from 'vue';
 import App from './App.vue';
 
+
 import HeroSection from './components/HeroSection.vue';
 import ThreeBlurbs from './components/ThreeBlurbs.vue';
 import SocialProof from './components/SocialProof.vue';

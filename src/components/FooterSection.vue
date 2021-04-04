@@ -11,5 +11,8 @@
   </ul>
 
 <small></small>
-
 </template>
+
+<style scoped>
+
+</style>
