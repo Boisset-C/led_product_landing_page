@@ -17,6 +17,7 @@ h2 {
   width: 20vw;
 }
 p {
+  padding-top: 2rem;
   height: 5vh;
   width: 25vw;
 }

@@ -12,11 +12,16 @@
 
 <style scoped>
 
+header {
+  margin-bottom: 3rem;
+}
+
 h2 {
   height: 7vh;
   width: 20vw;
 }
 p {
+  margin-top: 2rem;
   height: 5vh;
   width: 25vw;
 }
